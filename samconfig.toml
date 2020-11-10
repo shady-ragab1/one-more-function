@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "OneMoreFunctionStack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1glfc3zuv5lso"
+s3_prefix = "OneMoreFunction"
+region = "us-east-2"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
